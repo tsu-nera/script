@@ -1,2 +1,7 @@
 * My Scripts
 スクリプトです。
+
+* Path
+
+  export PATH=$HOME/script/sh:$PATH
+  export PATH=$HOME/script/ruby:$PATH

@@ -1,0 +1,3 @@
+#!/bin/sh
+export ECLIPSE_HOME="$HOME/opt/eclipse"
+$ECLIPSE_HOME/eclipse $*

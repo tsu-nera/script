@@ -1,0 +1,17 @@
+import gym
+import sys
+import configparser
+
+argvs = sys.argv 
+argc = len(argvs)
+
+if (argc != 2):
+    print('Usage: # python %s dirname' % argvs[0])
+    quit()
+
+config = configparser.ConfigParser()
+config.read('gym.ini')
+
+print('upload result to openai gym server...')
+gym.upload(argvs[1], api_key=config['DEFAULT']['ApiKey'])
+print('done')

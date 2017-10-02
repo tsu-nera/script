@@ -1,3 +1,0 @@
-#!/bin/sh
-export ECLIPSE_HOME="$HOME/eclipse/java-neon/eclipse/"
-$ECLIPSE_HOME/eclipse $*
